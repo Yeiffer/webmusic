@@ -2,7 +2,7 @@
 var jwt = require('jwt-simple');
 //payload del jwt
 var moment = require('moment'); //Codificar el jwt
-var secret = 'clave_secreta_curso';
+var secret = 'clave_secreta_poc';
 
 //metodo
 exports.createToken = function(user) { //el usuario a codificar dentro de un hash
